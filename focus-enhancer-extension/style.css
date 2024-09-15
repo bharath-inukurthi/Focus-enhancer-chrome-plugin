@@ -1,0 +1,134 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f9fc;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Remove fixed width */
+}
+
+img {
+  position: absolute;
+  top: 20px; /* Adjust the top margin as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 128px; /* Adjust the width and height as needed */
+  height: 128px; /* Center the logo horizontally */
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 90%;
+  max-height: 90%; /* Max width relative to viewport size */
+  width: 250px;
+  transition: transform 0.2s ease-in-out;
+  margin: 0 20px; /* Add margin for small screens */
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+h2, h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.inputField {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+h3 {
+  color: #666;
+}
+
+.websiteList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.websiteList li {
+  background-color: #eee;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.websiteList button {
+  background-color: #ff4b5c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.websiteList button:hover {
+  background-color: #ff1c2b;
+}
+
+h1 {
+  font-size: 28px;
+  color: #ff4b5c;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+#motivationalQuote {
+  font-style: italic;
+  color: #333;
+}
+
+@keyframes button-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+#agreeBtn {
+  animation: button-bounce 1s infinite ease-in-out;
+}
+
+#agreeBtn:hover {
+  background-color: #45a049;
+}
