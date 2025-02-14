@@ -25,6 +25,10 @@
 - ✅ Display **custom motivational messages**.
 - ✅ Simple and lightweight design.
 
+  ## Demo
+
+![Image](https://github.com/user-attachments/assets/eca55fe1-42a6-4658-9bcd-9f27ebf7ec02)
+
 ## 📝 Customization
 - Change the motivational message by editing `blocked/blocked.html`.
 - Modify styles via `styles/styles.css`.
