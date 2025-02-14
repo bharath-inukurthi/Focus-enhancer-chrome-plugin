@@ -26,8 +26,7 @@
 - ✅ Simple and lightweight design.
 
   ## Demo
-
-![Image](https://github.com/user-attachments/assets/eca55fe1-42a6-4658-9bcd-9f27ebf7ec02)
+[video](https://github.com/user-attachments/assets/2a1bfcde-6a42-4036-9c88-5ee1dd384d25)
 
 ## 📝 Customization
 - Change the motivational message by editing `blocked/blocked.html`.
