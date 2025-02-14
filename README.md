@@ -30,7 +30,7 @@
 - Modify styles via `styles/styles.css`.
 
 ## 📜 License
-This project is licensed under the **MIT License**. Please give proper credit if you use or modify this work.
+This project is licensed under the **Apach 2.0 License**. Please give proper credit if you use or modify this work.
 
 ---
 Happy Focusing! 🚀 Stay Productive! 💪
